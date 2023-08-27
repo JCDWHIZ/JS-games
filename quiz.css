@@ -20,7 +20,7 @@
 
 body {
   position: relative;
-  min-height: 100vh;
+  min-height: 110vh;
   color: var(--dark-color);
   font-family: Poppins, sans-serif;
   background-color: var(--grey-color);

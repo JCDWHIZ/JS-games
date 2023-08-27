@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 async function loadQuestion() {
-  const APIURL = "https://opentdb.com/api.php?amount=10";
+  const APIURL = "https://opentdb.com/api.php?amount=10&difficulty=easy";
   const results = await fetch(`${APIURL}`);
   const data = await results.json();
   _result.innerHTML = "";
